@@ -13,10 +13,7 @@
         "email": "authors@email.com",
 		"site": "example.com"
       },
-      "download": {
-        "type": "git",
-        "url": "https://github.com/username/repo.git"
-      },
+      "downloadURL": "https://github.com/username/repo.git",
       "license": "",
       "keywords": ["package","manager"],
       "dependencies": [
