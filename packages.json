@@ -1,4 +1,8 @@
 {
+  "name": "Default PPM repository",
+  "id": "PPMDefault",
+  "curatedBy": "Marcin Lesniak",
+  "site" : "https://github.com/marcin-l/PegaPackageManager",
   "packages": [
     {
       "name": "Pega Package Manager",
@@ -9,7 +13,7 @@
         "email": "authors@email.com",
 		"site": "example.com"
       },
-      "repository": {
+      "download": {
         "type": "git",
         "url": "https://github.com/username/repo.git"
       },
