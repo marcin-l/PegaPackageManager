@@ -1,0 +1,23 @@
+{
+  "packages": [
+    {
+      "name": "Pega Package Manager",
+	  "id": "PegaPackageManager",
+      "description": "Component which you are using right now",
+      "author": {
+        "name": "Marcin Leśniak",
+        "email": "authors@email.com",
+		"site": "example.com"
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/username/repo.git"
+      },
+      "license": "",
+      "keywords": ["package","manager"],
+      "dependencies": [
+          {"name":"PegaPlatform","version":"8"}
+      ]
+    }
+  ]
+}
