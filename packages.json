@@ -2,7 +2,7 @@
   "name": "Default PPM repository",
   "id": "PPMDefault",
   "curatedBy": "Marcin Lesniak",
-  "site" : "https://github.com/marcin-l/PegaPackageManager",
+  "site" : "https://github.com/marcin-l/PegaPackageManager/packages.json",
   "packages": [
     {
       "name": "Pega Package Manager",
@@ -18,7 +18,25 @@
       "keywords": ["package","manager"],
       "dependencies": [
           {"name":"PegaPlatform","version":"8"}
-      ]
-    }
+      ],
+	  "version": "1.0.0"
+    },
+    {
+      "name": "Flex Approval",
+	  "id": "FlexApproval",
+      "description": "Better approval component",
+      "author": {
+        "name": "Marcin Leśniak",
+        "email": "authors@email.com",
+		"site": "example.com"
+      },
+      "downloadURL": "https://github.com/marcin-l/PegaFlexApproval/raw/refs/heads/main/FlexApproval_010101.zip",
+      "license": "",
+      "keywords": ["approval"],
+      "dependencies": [
+          {"name":"PegaPlatform","version":"8"}
+      ],
+	  "version": "1.0.0"
+    }	
   ]
 }
