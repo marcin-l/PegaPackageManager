@@ -1,42 +1,63 @@
 {
   "name": "Default PPM repository",
+  "description": "Default PPM repository",
   "id": "PPMDefault",
   "curatedBy": "Marcin Lesniak",
-  "site" : "https://github.com/marcin-l/PegaPackageManager/packages.json",
   "packages": [
     {
       "name": "Pega Package Manager",
-	  "id": "PegaPackageManager",
+      "id": "PegaPackageManager",
+      "version": "1.0.0",
       "description": "Component which you are using right now",
+      "createdOn": "2023-10-01T12:00:00Z",
       "author": {
         "name": "Marcin Leśniak",
         "email": "authors@email.com",
-		"site": "example.com"
+        "site": "example.com"
       },
-      "downloadURL": "https://github.com/username/repo.git",
       "license": "",
-      "keywords": ["package","manager"],
-      "dependencies": [
-          {"name":"PegaPlatform","version":"8"}
+      "keywords": [
+        "package",
+        "manager"
       ],
-	  "version": "1.0.0"
+      "dependencies": [
+        {
+          "rulesetName": "PegaPlatform",
+          "rulesetVersion": "8"
+        }
+      ],
+      "file": {
+        "url": "https://example.com/repo/packages/CustomerOnboardingApp-1.0.0.zip",
+        "size": "5MB",
+        "checksum": "sha256:abcdef1234567890"
+      }
     },
     {
       "name": "Flex Approval",
-	  "id": "FlexApproval",
+      "id": "FlexApproval",
+      "version": "1.0.0",
       "description": "Better approval component",
+      "createdOn": "2023-10-01T12:00:00Z",
       "author": {
         "name": "Marcin Leśniak",
         "email": "authors@email.com",
-		"site": "example.com"
+        "site": "example.com"
       },
-      "downloadURL": "https://github.com/marcin-l/PegaFlexApproval/raw/refs/heads/main/FlexApproval_010101.zip",
       "license": "",
-      "keywords": ["approval"],
-      "dependencies": [
-          {"name":"PegaPlatform","version":"8"}
+      "keywords": [
+        "approval"
       ],
-	  "version": "1.0.0"
-    }	
+      "dependencies": [
+        {
+          "rulesetName": "PegaPlatform",
+          "rulesetVersion": "8"
+        }
+      ],
+      "file": {
+        "url": "https://example.com/repo/packages/CustomerOnboardingApp-1.0.0.zip",
+        "size": "5MB",
+        "checksum": "sha256:abcdef1234567890"
+      }
+    }
   ]
 }

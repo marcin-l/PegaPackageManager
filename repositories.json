@@ -1,0 +1,13 @@
+{
+    "lastUpdated": "2023-10-05T12:00:00Z",
+    "repositories": [
+        {
+            "name": "Default PPM repository",
+            "description": "Default PPM repository",
+            "id": "PPMDefault",
+            "curatedBy": "Marcin Lesniak",
+            "site": "https://github.com/marcin-l/PegaPackageManager/packages.json",
+            "status": "active"
+        }
+    ]
+}
